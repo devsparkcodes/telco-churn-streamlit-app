@@ -1,63 +1,110 @@
-# 📊 Telco Customer Churn Prediction App
+# 📊 Telco Customer Churn Prediction
 
-This project is a **Streamlit-based Machine Learning web application** that analyzes Telco customer data and predicts whether a customer is likely to churn using a **K-Nearest Neighbors (KNN)** classifier.
-
----
-
-## 🚀 Features
-- Interactive Exploratory Data Analysis (EDA)
-- Data cleaning and preprocessing
-- Label Encoding & One-Hot Encoding
-- Feature Scaling using StandardScaler
-- KNN model training and evaluation
-- Model accuracy & classification report
-- User input based real-time churn prediction
+A Machine Learning web application that predicts customer churn using a trained classification model with an interactive Streamlit interface.
 
 ---
 
-## 🛠️ Technologies Used
+## 📖 Project Overview
+
+This project explores customer churn prediction through data preprocessing, exploratory data analysis, feature engineering, model training, and deployment with Streamlit.
+
+---
+
+## ✨ Features
+
+- Interactive Streamlit Dashboard
+- Exploratory Data Analysis
+- Customer Churn Prediction
+- Model Evaluation
+- Feature Engineering
+
+---
+
+## 🛠 Tech Stack
+
 - Python
 - Streamlit
+- Scikit-learn
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
-- Seaborn
-- Joblib
 
 ---
 
-## 📁 Project Structure
-Telco-Churn-App/
-│
-├── app.py
-├── Telco-Customer-Churn.csv
-├── ohe_encoder.pkl
-├── requirements.txt
-└── README.md
+## 📂 Project Structure
+
+```text
+telco-churn-streamlit-app/
+app.py
+ohe_encoder.pkl
+Telco-Customer-Churn.csv
+requirements.txt
+README.md
+```
 
 ---
 
-## ▶️ How to Run This App Locally
+## 💻 Installation
 
-1. Install required libraries:
 ```bash
 pip install -r requirements.txt
-Run the Streamlit app:
+
 streamlit run app.py
+```
 
 ---
 
-📊 Model Details
-Algorithm: K-Nearest Neighbors (KNN)
-Number of Neighbors: 39
-Scaling Method: StandardScaler
-Evaluation Metric: Accuracy Score
+## 🚀 Live Demo
 
-📌 Dataset
-The dataset used in this project is the Telco Customer Churn Dataset, which contains customer demographic information, services subscribed, billing details, and churn status.
+[(Add your Streamlit link)](https://telco-churn-app-devsparkcodes.streamlit.app/)
 
-👨‍💻 Author
+---
+
+## 📸 Screenshots
+
+- Home Page
+- EDA
+- Model Performance
+- Prediction Result
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](assets/home-page.png)
+
+### Exploratory Data Analysis
+
+![EDA](assets/eda.png)
+
+### Model Performance
+
+![Model Performance](assets/model-performance.png)
+
+### Prediction Result
+
+![Prediction Result](assets/prediction-result.png)
+
+---
+
+## 🎯 Learning Outcomes
+
+- Data Cleaning
+- Feature Engineering
+- Classification Models
+- Streamlit Deployment
+
+---
+
+## 🔮 Future Improvements
+
+- Multiple ML Models
+- Explainable AI
+- Model Comparison
+- Cloud Deployment
+
+---
+
+## 👨‍💻 Author
+
 Muhammad Umar
-
-⭐ If you like this project, don’t forget to give it a star!
