@@ -56,7 +56,9 @@ streamlit run app.py
 
 ## 🚀 Live Demo
 
-[(Add your Streamlit link)](https://telco-churn-app-devsparkcodes.streamlit.app/)
+Try the deployed application here:
+
+👉 **[Telco Churn Prediction App](https://telco-churn-app-devsparkcodes.streamlit.app/)**
 
 ---
 
